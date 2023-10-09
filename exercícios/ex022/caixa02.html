@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgrey;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(139, 139, 139);
+            padding: 10px;
+            box-shadow: 5px 5px 5px #5a5a5a;
+        }
+        nav > a {
+            margin-left: 15px;
+            margin-right: 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav> a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 10px;
+            padding: 4px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        #noticias {
+            background-color: lightgray;
+            padding: 15px 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes, Política e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta laudantium temporibus, perferendis saepe, id atque nisi ea quibusdam amet, ipsam velit. Expedita dolor in, laboriosam quasi incidunt rem doloremque saepe?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis a eos voluptatem, dolore beatae excepturi numquam ratione perspiciatis at accusamus aliquid officiis sunt iure iste corrupti possimus, ipsum dolorum repudiandae!</p>
+    </footer>
+
+</body>
+</html>
